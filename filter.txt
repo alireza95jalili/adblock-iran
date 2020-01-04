@@ -677,12 +677,7 @@ zima.ir##.newslleterPop
 zima.ir##.overlayDiv
 zohur12.ir##.related-posts
 zoomg.ir##.banner
-zoomit.ir##+js(abort-on-property-read.js, setHeightOfAd)
-zoomit.ir##.Text5Ad
-zoomit.ir##.bannercontainer
-zoomit.ir##.showBanner
-zoomit.ir##.text-adv-row
-zoomit.ir##text-adv-box
+
 zoomtech.ir###rss-2
 zoomtech.ir###text-10
 zoomtech.ir###text-19
@@ -1214,5 +1209,8 @@ zoomtech.ir###text-3
 ||zanboor.net/show.php$subdocument
 ||zarpop.com^$script
 ||zoomit.ir/*.gif
-||zoomit.ir/*/declarationPics/*.jpg
+
 ||zoomtech.ir/wp-content/uploads/*.gif
+
+! 1/4/2020 https://www.zoomit.ir
+||cdn01.zoomit.ir/*.gif$image
