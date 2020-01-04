@@ -11,7 +11,7 @@ If using **uBlock₀**, add following line to your custom filters under `Prefere
 Alternative URLs if the above doesn't work for you:
 
 - https://combinatronics.com/farrokhi/adblock-iran/master/filter.txt
-- https://cdn.statically.io/gh/farrokhi/adblock-iran/master/filter.txt
+- https://cdn.statically.io/gh/alireza95jalili/adblock-iran/2fc31d5c/filter.txt
 
 In case of **Adblock Plus**, the list should be added to `Filter preferences -> Add filter subscription -> Add a different subscription` or simply click the below link to import the filter list into ABP.
 
