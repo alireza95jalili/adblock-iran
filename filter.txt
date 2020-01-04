@@ -1,14 +1,16 @@
-[Adblock Plus 2.0]
-! Checksum: 2DhK4liuY3fQjPMlzBiMHg
-!--------------------------------------------------------------------------
-! Title :    Adblock-Iran
-! Expires:   4 days
-! Version:   162
+! Checksum: 
 ! Download:  https://gitcdn.xyz/repo/farrokhi/adblock-iran/master/filter.txt
+! Expires:   4 days
 ! Homepage:  https://github.com/farrokhi/adblock-iran
-! Support:   https://github.com/farrokhi/adblock-iran/issues 
 ! License:   BSD Simplified
+! Support:   https://github.com/farrokhi/adblock-iran/issues
+! Title :    Adblock-Iran
+! Version:   162
 !--------------------------------------------------------------------------
+###GlobalAdBlock
+###SenBackLoginBox
+###SenCodeLoginBox
+###Topadver
 ###adnFloatbr
 ###adpress_widget-2
 ###ads468
@@ -18,28 +20,24 @@
 ###apanet_iframe
 ###ban57
 ###divADV
-###GlobalAdBlock
 ###mihan_page_advert
 ###page_ads
 ###popup
 ###popupMask
 ###sabalightBox
-###SenBackLoginBox
-###SenCodeLoginBox
 ###takhfifan-widget
-###Topadver
+##.ADTUBE
 ##.active.visible.transition.page.modals.dimmer.ui
 ##.ad-container
 ##.ads-head
 ##.adsblockpop
 ##.adsssss
-##.ADTUBE
 ##.adv
+##.advCon
+##.advContainer
 ##.adv_display
 ##.adv_inner
 ##.adv_sheypoor
-##.advCon
-##.advContainer
 ##.bottom-left-ad
 ##.cycle_adv_news
 ##.fixedadv.post
@@ -203,9 +201,9 @@ binanews.ir###text-2
 binanews.ir##[class^="top_ads"]
 binanews.ir##[id^="linkcat-"]
 bisms.ir##.ads6
-blogfa.com##div[style*="fixed"]:contains(تبلیغات)
-blogfa.com##+js(set, showbanner, noopFunc)
 blogfa.com##+js(aopr, document.createElement)
+blogfa.com##+js(set, showbanner, noopFunc)
+blogfa.com##div[style*="fixed"]:contains(تبلیغات)
 blogsky.com###fesnq
 blogsky.com##[style*="z-index: 10000"][style*="width: 122px"]
 boursenews.ir##.ozv_col_y
@@ -244,10 +242,10 @@ digikala.com###popup-mask
 dl4all.ir##.center > .fadeInDown.animated.visible.hidden.body-main:nth-of-type(1)
 dl4all.ir##.left > .fadeInDown.animated.visible.hidden.body-main:nth-of-type(1)
 dlbook.net##.mom_custom_text.widget:nth-of-type(3) > .custom_textwidget
+dlroozane.net##[id*="ADbox-"]
 dlroozane.net##center a[href*="utm_medium=banner"]
 dlroozane.net##center a[target="_blank"] img[width="90%"]
 dlroozane.net##div.static-post:contains(تبلیغات)
-dlroozane.net##[id*="ADbox-"]
 donya-e-eqtesad.com##.mrgtalfiq
 donya-e-eqtesad.com##.overview-auto
 donya-e-eqtesad.com##.position-i0
@@ -257,11 +255,11 @@ download.ir###hdd_rss_reader-2
 downloadha.com###main > .main-container > .maincontent > .topbanners468
 downloadha.com##.ads
 downloadha.com##.entry-etc
+downloadha.com##.post.fixed-posts.panel-warning.panel
 downloadha.com##.rightsidebarc.adsright
 downloadha.com##.widget.aside.collapse
 downloadha.com##[class*="-ads "]
 downloadha.com##[class*="sabavision"]
-downloadha.com##.post.fixed-posts.panel-warning.panel
 downloadkral.com###shop
 downloadkral.com##a[href^="http://store.downloadkral.com/product.php"]
 downloadly.ir##.mom-e3lanat-wrap
@@ -346,9 +344,9 @@ hastidownload.biz##a[href^="http://my.mihanwebhost.com/cart.php"]
 hastidownload.biz##a[href^="http://www.takhfifan.com/"]
 hastidownload.biz##a[href^="https://www.digikala.com/Search/"]
 hastidownload.biz##a[href^="https://www.modiseh.com/"]
-hidoctor.ir##.pdslanbox
-hidoctor.ir##.advertise-banner-anchor
 hidoctor.ir###single-right-sidebar-banners
+hidoctor.ir##.advertise-banner-anchor
+hidoctor.ir##.pdslanbox
 hotnaz.com###tabligheirani_ads_bottom_right_121
 icoff.ee##[id^="image-"]
 icoff.ee##[id^="sow-image-"]
@@ -367,8 +365,8 @@ iranart.ir##[href^="/advertisements/"]
 iranjib.ir###moba
 iranjib.ir##.biga
 iranjib.ir##.mybox
-iranjib.ir##a[href="//www.iranjib.ir/ra.php"]
 iranjib.ir##DIV[onclick="closea()"]
+iranjib.ir##a[href="//www.iranjib.ir/ra.php"]
 irannaz.com###topAdver
 irannaz.com##.CenterBlock.CBS.shopads
 irannaz.com##.TopAdssss.CBS
@@ -400,8 +398,8 @@ jahannews.com##.hidden-xs.col-sm-4.col-md-4.col-lg-4
 jamnews.ir###AdvertsHolderWI_1041 > .Adverts
 japanmusic.ir##.banerri
 jazzaab.ir##.Tadsb2
-jazzaab.net##.textwidget
 jazzaab.net##.TopAdssss
+jazzaab.net##.textwidget
 jozveha.com##.main-sidebar.sidebar
 jozveha.com##.widget_text.widget:nth-of-type(3)
 jozveha.com##.widget_text.widget:nth-of-type(4)
@@ -424,11 +422,11 @@ khabarpu.com###center_kp2:nth-of-type(11) > .boxint-kp2:nth-of-type(1)
 khabarpu.com##.ext-col3
 khandefun.ir##[style="position:absolute;left:1px;top:1px;width:122px;border:1px solid #C0C0C0;z-index:9999999999;background-color:white;direction:ltr;"]
 khodrobank.com##.mobile-fixed-banner
-kojaro.com##.advertisement-in-topic
-kojaro.com##.bannercontainer
-kojaro.com##.bannerWrapper
-kojaro.com##.mobileBanner
 kojaro.com##.Text5Ad
+kojaro.com##.advertisement-in-topic
+kojaro.com##.bannerWrapper
+kojaro.com##.bannercontainer
+kojaro.com##.mobileBanner
 kojaro.com##[class*="*Ad"]
 ladin.ir###sidebar-left > .sidebar-left > .ads.sidebar-box:nth-of-type(1)
 ladin.ir###sidebar-right > .sidebar-right > .ads.sidebar-box
@@ -486,8 +484,8 @@ nex1music.ir##[href="https://www.veniz.com/"]
 nextholiday.ir##.carousel-inner
 niksalehi.com##.banner_content
 niksalehi.com##.banner_sid_desktop
-niksalehi.com##.block_box_threee
 niksalehi.com##.block_Special_look
+niksalehi.com##.block_box_threee
 niksalehi.com##.div_banner
 niksalehi.com##.main_banner_single
 niksalehi.com##.web_box
@@ -525,9 +523,9 @@ parsiblog.com##[style="overflow: hidden;font-family:Tahoma;font-size:12px;;width
 parsikhon.ir##.ads
 parsnaz.ir###rayka-PB
 parsnaz.ir##.Bstyle.WCBC
-parsnaz.ir##.leftads.Bstyle.LBC:nth-of-type(1)
 parsnaz.ir##.Res001.Bstyle.RBC
 parsnaz.ir##.Res003.Bstyle.RBC
+parsnaz.ir##.leftads.Bstyle.LBC:nth-of-type(1)
 parsnaz.ir##DIV[style="position: fixed;z-index: 99997;width:128px;height:270px;border: 2px solid #ddd;background-color: #ddd;bottom: 0; right: 5px;"]
 parsnews.com##.type-script
 parsnews.com##IFRAME[src="/anetwork250.htm"]
@@ -610,9 +608,9 @@ soft98.ir##*[class="col-lg pl-0 pr-0 pl-sm-3 pr-sm-3 pr-sm-3"]
 soft98.ir##*[class="col-lg pt-3 pl-0 pr-0 pl-sm-3 pr-sm-3 pt-lg-0 pr-lg-0"]:style(height: 1px !important; width: 1px !important; visibility: collapse !important;)
 soft98.ir##*[class^="adx-image"]:style(height: 1px !important; width: 1px !important; visibility: collapse !important;)
 soft98.ir##.adx
+softgozar.com###PopAlert
 softgozar.com###backgray-layout
 softgozar.com###dtlAdvertiseRightPan
-softgozar.com###PopAlert
 softgozar.com##.adv_text
 sourcebaran.com##a[href="http://bartaren.ir"]
 sourceiran.com##.text-ads-widget.widget
@@ -629,8 +627,8 @@ tafrihi.com##.affilate
 takhfifan.com##.modal-overlay
 takhfifan.com##.tkh-newsletter-box
 taknaz.net###ads-goshe2
-taknaz.net##.leftads
 taknaz.net##.Rads120
+taknaz.net##.leftads
 taknaz.net##.topadvers
 takro.net##.col-sm-pull-9.col-sm-3 > .panel-primary.panel:nth-of-type(2)
 takro.net##.panel-primary.panel:nth-of-type(3)
@@ -657,9 +655,9 @@ topnaz.com##.b130ads
 topnaz.com##.bxl
 toranji.ir###\32 b25e9d2_886e > .ruby-container.ruby-block-inner
 v.persiangig.com###page_ads
+vajehyab.com##.vyads
 varoone.ir##.fixpost
 varoone.ir##.gsh[style*="120px"][style*="240px"]
-vajehyab.com##.vyads
 varzesh3.com##.page-content-bg.hidden-xs.page-content-ads
 vazeh.com##.mainx1
 vbiran.ir##.adbox
@@ -673,17 +671,17 @@ yaranews.ir###ads
 yasbooks.com##tr:nth-of-type(2) > td > table > tbody > tr > td:nth-of-type(1) > table:nth-of-type(2)
 yasdl.com##.post.fixed-post.row
 yasdl.com##a[href^="http://my.mihanwebhost.com/cart.php"]
-yasdl.com##p > a[href="http://www.payam-resan.com/"]
 yasdl.com##p > a[href="http://mahoot-leather.ir/"]
+yasdl.com##p > a[href="http://www.payam-resan.com/"]
 zima.ir##.newslleterPop
 zima.ir##.overlayDiv
 zohur12.ir##.related-posts
 zoomg.ir##.banner
 zoomit.ir##+js(abort-on-property-read.js, setHeightOfAd)
+zoomit.ir##.Text5Ad
 zoomit.ir##.bannercontainer
 zoomit.ir##.showBanner
 zoomit.ir##.text-adv-row
-zoomit.ir##.Text5Ad
 zoomit.ir##text-adv-box
 zoomtech.ir###rss-2
 zoomtech.ir###text-10
@@ -697,10 +695,11 @@ zoomtech.ir###text-3
 ||1pezeshk.com/wp-content/*/%D9%BE%D9%88%D8%B3%D8%AA%D8%B1-%D8%B3%D9%88%D9%85.jpg
 ||1pezeshk.com/wp-content/uploads/*/*/*.gif
 ||1pezeshk.com/wp-content/uploads/*/Baner
-||20tayi.ir/wp-content/uploads/1.png
 ||20script.ir/banner/*$image
+||20tayi.ir/wp-content/uploads/1.png
 ||2gheroon.ir/*.gif
 ||30nama.fun/ads/
+||3ovyg21t17l11k49tk1oma21-wpengine.netdna-ssl.com/wp-content/uploads/2019/11/350_780-site-pop-up-2.gif
 ||4dah.ir/wp-content/uploads/ADS*.gif
 ||6sobh.com/images/elitgashtL4.gif
 ||abipic.com/wp-content/uploads/2016/06/bafterefect-2.gif
@@ -709,10 +708,10 @@ zoomtech.ir###text-3
 ||ad.utop.ir^
 ||adment.space^
 ||adnegah.net^
+||ads.rzb.ir^
 ||ads.sahandar.com^
 ||adtube.ir^
 ||adverse.persiangig.com/pgads/ads/$subdocument
-||ads.rzb.ir^
 ||adziran.gq^
 ||afkarnews.com/servev2/*.gif
 ||afkarnews.ir/adtube
@@ -728,7 +727,6 @@ zoomtech.ir###text-3
 ||alamto.com/wp-content/uploads/*/*/*.gif
 ||alef.ir^$third-party
 ||alodoctor.ir/Uploads/Picture/*.gif
-||api.sabavision.com/$subdocument
 ||amadnews.com/wp-content/uploads/2017/01/4vm7hosdlqst0bjaecv.jpg
 ||amazing.ir/wp-content/uploads/*/*/*.gif
 ||ammarname.ir/sites/default/files/templateLogo/Baner/$object
@@ -738,6 +736,7 @@ zoomtech.ir###text-3
 ||anobanini.net/forum/adsg/
 ||aparat.com/*/campains/$image
 ||aparat.com/public/public/images/banner
+||api.sabavision.com/$subdocument
 ||apktops.ir/wp-content/*.gif
 ||appget.ir/*.gif
 ||appleapps.ir/wp-content/uploads/*/*/*.gif
@@ -748,7 +747,6 @@ zoomtech.ir###text-3
 ||asemooni.com/*/*/*.gif
 ||atighgasht.com^$third-party
 ||avadl.biz/img/Reza/*banner
-||blogfa.com/ad/
 ||b-amooz.com/wp-content/uploads/*/*/hikvision.gif
 ||backority.ir^$script
 ||backtory.com/mediaad
@@ -758,10 +756,12 @@ zoomtech.ir###text-3
 ||barsadic.com/gif/
 ||bayanbox.ir/view/*/*.gif
 ||besthaa.ir/wp-content/uploads/*/*/*.gif
+||beta.kaprila.com/a
 ||beytoote.com/images/banners/
 ||beytoote.com/shops/
 ||blog.giant.ir/weblink/run/$script
 ||blog.namava.ir/wp-content/uploads/*.gif
+||blogfa.com/ad/
 ||borna.news/servev2/*.gif
 ||boyernews.com/flash/*.swf$object
 ||boyernews.com/sadraclinic468_p.swf$object
@@ -789,7 +789,9 @@ zoomtech.ir###text-3
 ||cdn.last.upload.ir/*.gif
 ||cdn.mashreghnews.ir/d/*/*/*/*/*.gif
 ||cdn.persiangig.com/preview/$image
+||cdn.yektanet.com/
 ||cdn.zoomg.ir/*.gif
+||cdn01.zoomit.ir/*.gif
 ||chargereseller.com/img/banner/
 ||cinemakhabar.ir/Picture/*.gif
 ||cinemakhabar.ir/Picture/*.swf$object
@@ -910,6 +912,7 @@ zoomtech.ir###text-3
 ||ilna.ir/servev2/*.gif
 ||ilnanews.com/servev2/*.gif
 ||ilnanews.com/servev2/*.swf
+||image.yektanet.com/
 ||images.khabaronline.ir/system/menus/*/
 ||images.kojaro.com/*.gif
 ||img.20script.ir/banner/$image
@@ -973,8 +976,8 @@ zoomtech.ir###text-3
 ||khf.nz/cdn/farfuture/$image,domain=~khabarfarsi.com
 ||kimexa.com^$popup
 ||koolakmag.ir/wp-content/uploads/*.gif
-||lahzeakhar.com/images/rightBanners/*.gif
 ||lahzeakhar.com/images/Slider/
+||lahzeakhar.com/images/rightBanners/*.gif
 ||lahzeakhar.com/images/topRotator/*.gif
 ||lastsecond.ir/uploads/files/*.gif
 ||lasttours.net/*.gif
@@ -992,6 +995,7 @@ zoomtech.ir###text-3
 ||media.khabaronline.ir/*.gif
 ||media.mehrnews.com/d/*/*/*/*/*.gif
 ||mediaad.org^$third-party
+||mediacdn.mediaad.org/
 ||melipayamak.com/wp-content/themes/melipayamak/images/banner/$image
 ||melipayamak.com/wp-content/themes/melipayamk/images/banner/$image
 ||mesearch.xyz/sq.php
@@ -1008,6 +1012,7 @@ zoomtech.ir###text-3
 ||mygame.ir/image/*.gif
 ||mygearbox.com/static/media/upload/CACHE/images/$image
 ||myiranfilm.ir/wp-content/uploads/*/*/*.gif
+||mysurface.ir/zoomitloop.php
 ||naghola.com/tabligh*/$image
 ||namakstan.ir/wp-content/uploads/2016/11/unnamed.jpg
 ||namakstan.net/wp-content/uploads/*.gif
@@ -1015,8 +1020,8 @@ zoomtech.ir###text-3
 ||netbina.com^
 ||new4android.ir/wp-content/uploads/*/*/*.gif
 ||news-bazar.com/Styles/Banner/$image
-||news.gooya.com/*/*/*/app_gooya_*.gif
 ||news.gooya.com/*/*/*/Kayhanlondon-*-loop.gif
+||news.gooya.com/*/*/*/app_gooya_*.gif
 ||newsair.ir/wp-content/uploads/*/*/*.gif
 ||newsair.ir/wp-content/uploads/*/*/banner
 ||nex1music.ir/bnr/
@@ -1031,6 +1036,7 @@ zoomtech.ir###text-3
 ||opizo.com/120-240.gif
 ||p30download.com/agahi
 ||p30download.com/tabliq
+||p30download.com/tabliq/
 ||p30rank.ir^
 ||p30skill.ir/wp-content/uploads/*/*/ModelingShop2.jpg
 ||p30skill.ir/wp-content/uploads/Alert1.jpg
@@ -1042,8 +1048,8 @@ zoomtech.ir###text-3
 ||par30game.net/wp-content/themes/Theme-v2/js/popbeh.js
 ||par30game.net/wp-content/uploads/*.gif
 ||parandco.com/media/uploads/banners/
-||pardad.ir/images/site1rbHeader.png
 ||pardad.ir/UploadFiles/*.gif
+||pardad.ir/images/site1rbHeader.png
 ||parsgreen.com/ProjectData/Campain/Banner/$image
 ||parsiandownload.net/wp-content/themes/parsiandownload/ads/
 ||parsipet.ir/images/icons/myicons/*.gif
