@@ -16,6 +16,7 @@ Alternative URLs if the above doesn't work for you:
 In case of **Adblock Plus**, the list should be added to `Filter preferences -> Add filter subscription -> Add a different subscription` or simply click the below link to import the filter list into ABP.
 
 - https://subscribe.adblockplus.org/?location=https://cdn.jsdelivr.net/gh/alireza95jalili/adblock-iran/filter.txt
+- https://subscribe.adblockplus.org/?location=https://cdn.statically.io/gh/alireza95jalili/adblock-iran/2fc31d5c/filter.txt
 
 ## Notes
 
